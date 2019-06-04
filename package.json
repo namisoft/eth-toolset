@@ -1,0 +1,41 @@
+{
+  "name": "eth-toolset",
+  "version": "1.0.0",
+  "description": "Ethereum Development Toolset",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/namisoft/eth-toolset.git"
+  },
+  "keywords": [
+    "ethereum",
+    "web3",
+    "tool",
+    "compile",
+    "deploy",
+    "smart contract",
+    "helper",
+    "multiple blockchains manageable",
+    "truffle alternative",
+    "namisoft",
+    "namitech"
+  ],
+  "author": "NamiTech <tuanvd@gmail.com> (https://linkedin.com/in/vu-tuan-pmp-88b1223a)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/namisoft/eth-toolset/issues"
+  },
+  "homepage": "https://github.com/namisoft/eth-toolset#readme",
+  "dependencies": {
+    "fs-extra": "^8.0.1",
+    "minimist": "^1.2.0",
+    "solc": "^0.5.9",
+    "web3": "^1.0.0-beta.52"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^7.0.0"
+  }
+}
