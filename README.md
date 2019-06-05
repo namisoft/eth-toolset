@@ -58,5 +58,5 @@ This will use the contract deployment info (from file `<deployedContractPath>/Yo
 to build the contract and invoke the method.
   
 Example:
-* Invoke send method:  `node invoke.js --network=dev --contract=TradeLog --method=recordTrade --verb=send --params='["000001","EUR", "USD", 2]''`
-* Invoke call method:  `node invoke.js --network=dev --contract=TradeLog --method=getTradeRecord --verb=call --params=["000001"]`
+* Invoke send method:  `node invoke.js --network=dev --contract=TradeLog --method=recordTrade --verb=send --params='["000001","EUR", "USD", 2]'`
+* Invoke call method:  `node invoke.js --network=dev --contract=TradeLog --method=getTradeRecord --verb=call --params='["000001"]'`
